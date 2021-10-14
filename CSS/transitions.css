@@ -1,0 +1,55 @@
+
+.top-cloud{
+  animation: go-back 1s infinite alternate;
+}
+.bot-cloud{
+  animation: go-back 1s infinite alternate;
+}
+/*efeito de vai e vem das nuvens */
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.top-container{
+  animation: changeBackgroundColor 7s infinite;
+}
+/*Efeito e mudara cor de fundo do primeiro DIV */
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #E4F9F5;
+  }
+  50% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #E4F9F5;
+  }
+}
+
+/* efeito de fadein na imagem */
+@keyframes fadeAndScale2 {
+    0% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    40% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+    }
+}
+
+.main-image {
+    animation: fadeAndScale2 3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}

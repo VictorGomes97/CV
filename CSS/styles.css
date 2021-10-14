@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: none;
+  border: dotted #EAF6F6 6px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+.header-site{
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.btn {
+  background: #19d9e0;
+  background-image: -webkit-linear-gradient(top, #19d9e0, #29aeb3);
+  background-image: -moz-linear-gradient(top, #19d9e0, #29aeb3);
+  background-image: -ms-linear-gradient(top, #19d9e0, #29aeb3);
+  background-image: -o-linear-gradient(top, #19d9e0, #29aeb3);
+  background-image: linear-gradient(to bottom, #19d9e0, #29aeb3);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfcdc;
+  background-image: -webkit-linear-gradient(top, #3cfcdc, #34d9a2);
+  background-image: -moz-linear-gradient(top, #3cfcdc, #34d9a2);
+  background-image: -ms-linear-gradient(top, #3cfcdc, #34d9a2);
+  background-image: -o-linear-gradient(top, #3cfcdc, #34d9a2);
+  background-image: linear-gradient(to bottom, #3cfcdc, #34d9a2);
+  text-decoration: none;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.excel {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contabilidade {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bot-msg {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.phone {
+  width: 20%;
+  height: 20%;
+}
