@@ -1,9 +1,9 @@
 
 .top-cloud{
-  animation: go-back 1s infinite alternate;
+  animation: go-back 1.5s infinite alternate;
 }
 .bot-cloud{
-  animation: go-back 1s infinite alternate;
+  animation: go-back 2s infinite alternate;
 }
 /*efeito de vai e vem das nuvens */
 @keyframes go-back {
