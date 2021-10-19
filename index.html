@@ -8,9 +8,9 @@
     <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-    <section class="header-site">
       <div class="top-container">
         <img class="top-cloud" src="images/cloud.png" alt="cloud">
         <h1>Eu sou Victor Gomes</h1>
@@ -18,8 +18,6 @@
         <img class="bot-cloud" src="images/cloud.png" alt="cloud">
         <img src="images/mountain.png" alt="mountain">
       </div>
-    </section>
-    <section class="content-site">
       <div class="middle-container">
         <div class="profile">
           <img class="main-image" src="images/circle_photo.png" alt="victor's profile photo">
@@ -29,31 +27,29 @@
         <hr>
         <div class="skills">
           <h2>Habilidades.</h2>
-          <div class="skill-row">
+          <div class="skill-row" data-aos="fade-right">
             <img class="computer" src="images/to_type.gif" alt="computer gif">
             <h3>Programação em Python</h3>
-            <p>Tive início aos meus estudos de programação após o término da faculdade, com o foco em Data Science. Possuo conhecimento avançado em Python, com experiência nas bibliotecas: Pandas, matplotlib, entre outras.</p>
+            <p>Tive início oas meus estudos de programação após o término da faculdade, com o foco em Data Science.Possuo conhecimento avançado em Python, com experiência nas bibliotecas: Pandas, matplotlib, entre outras.</p>
           </div>
-          <div class="skill-row">
+          <div class="skill-row" data-aos="fade-left">
             <img class="excel" src="images/excel.png" alt="excel">
             <h3>Microsoft Office Excel</h3>
             <p>Conhecimento avançado no uso e manuseameto de planilhas,e funções. Conheicmento básicos em programação em VBA/VBE.</p>
           </div>
-          <div class="skill-row">
+          <div class="skill-row" data-aos="fade-right">
             <img class="contabilidade" src="images/contabilidade.gif" alt="contabilidade">
             <h3>Contabilidade</h3>
-            <p>Possuo formação acadêmica Bacharelado em Ciências Contábeis. Onde adquiri conhecimento sobre como contabilizar o patrimonio das empresas, além de registrar suas contas e despesas, receitas e lucros. </p>
+            <p>Possuo formação acadêmica em Ciências Contábeis. Onde adquiri conhecimento sobre como contabilizar o patrimonio das empresas, além de registrar suas contas e despesas, receitas e lucros. </p>
           </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <div class="contact-me" data-aos="zoom-in-up">
           <h2>Entre em Contato</h2>
           <h3>Se você também tem interesses pela programação e Ciência de Dados.</h3>
           <p class="contact-msg">Me mande uma mensagem, podemos debater muito sobre e até quem sabe trabalhar juntos em um projeto.</p>
           <a class="btn" href="contato.html">ME CONTATE</a>
         </div>
-    </section>
-
     </div>
 
 
@@ -65,7 +61,11 @@
       <p class="bot-msg">© 2021 Victor Gomes.</p>
     </div>
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+  </script>
   </body>
 </html>
